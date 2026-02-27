@@ -256,6 +256,27 @@ canvas {
   }
 
 }
+@media (max-width: 768px) {
+
+  .gallery,
+  .gallery1 {
+      top: 0;
+      animation: none;
+      flex-direction: row;
+      width: 100%;
+      justify-content: center;
+      gap: 8px;
+      position: relative;
+  }
+
+  .gallery img,
+  .gallery1 img {
+      width: 70px;
+      height: 70px;
+  }
+
+}
+
 
 
 
