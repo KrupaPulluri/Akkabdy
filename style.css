@@ -16,9 +16,9 @@ body {
 
 @media (max-width: 768px) {
 
-  h1 { font-size: 22px; }
-  h3 { font-size: 18px; }
-  p, h5, h6 { font-size: 16px; }
+  h1 { font-size: 30px; }
+  h3 { font-size: 25px; }
+  p, h5, h6 { font-size: 28px; }
   .love { font-size: 18px; }
 
 }
@@ -277,6 +277,7 @@ canvas {
   }
 
 }
+
 
 
 
