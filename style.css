@@ -13,6 +13,31 @@ body {
     src: url("Kings-Regular.ttf");
     font-family:Kings;
 }
+
+h1 {
+    font-size: clamp(28px, 6vw, 50px);
+}
+
+h3, p, h5, h6 {
+    font-size: clamp(18px, 5vw, 35px);
+}
+@media (max-width: 768px) {
+
+  .gallery img,
+  .gallery1 img {
+      width: 120px;
+      height: 120px;
+  }
+
+  .gallery {
+      left: 5px;
+  }
+
+  .gallery1 {
+      right: 5px;
+  }
+
+}
 .bg-video{
     position: fixed;
     top:0;
@@ -161,9 +186,11 @@ button {
 
 .circle-container {
   position: relative;
-  width: 600px;  /* Adjusted to fit the photo and waves closely without excess space */
-  height: 600px; /* Adjusted to fit the photo and waves closely without excess space */
-  margin: 60px auto;
+  width: 90vw;
+  height: 90vw;
+  max-width: 600px;
+  max-height: 600px;
+  margin: 40px auto;
   display: none;
 }
 
@@ -171,13 +198,12 @@ button {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 480px;  /* Kept large for visibility, but waves will stick closely around it */
-  height: 480px; /* Kept large for visibility, but waves will stick closely around it */
+  width: 75%;
+  height: 75%;
   border-radius: 50%;
   transform: translate(-50%, -50%);
   object-fit: cover;
   z-index: 2;
-  box-shadow: 0 0 25px #00ffff;
 }
 
 canvas {
@@ -207,6 +233,29 @@ canvas {
 }
 
 
+@media (max-width: 768px) {
+
+  button,
+  .memory-btn {
+      font-size: 16px;
+      padding: 10px 20px;
+  }
+
+  #playPause {
+      bottom: 15px;
+      right: 15px;
+      font-size: 18px;
+      padding: 10px;
+  }
+
+}
+@media (max-width: 768px) {
+
+  .container {
+      padding: 20px;
+  }
+
+}
 
 
 
