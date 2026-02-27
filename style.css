@@ -48,7 +48,7 @@ h3{
     font-family:Merienda;
 }
 h1 {
-    font-size: 60px;
+    font-size: 50px;
     margin:0;
     color: rgb(255, 253, 253);
     font-family:Merienda;
@@ -205,6 +205,7 @@ canvas {
 .memory-btn:hover {
     transform: scale(1.1);
 }
+
 
 
 
