@@ -69,11 +69,11 @@ h3, p, h5, h6 {
   z-index: -1;
 }
 h3{
-    font-size: 35px;
+   
     font-family:Merienda;
 }
 h1 {
-    font-size: 50px;
+   
     margin:0;
     color: rgb(255, 253, 253);
     font-family:Merienda;
@@ -83,15 +83,15 @@ h1 {
     from{text-shadow: 0 0 10px #d48e0c52;}
 }
 p{
-    font-size: 35px;
+    
     font-family:Merienda;
 }
 h5{
     font-family:Merienda;
-    font-size: 35px;
+    
 }
 h6{
-    font-size: 35px;
+    
     font-family:Merienda;
 }
 button {
@@ -276,6 +276,7 @@ canvas {
   }
 
 }
+
 
 
 
