@@ -6,11 +6,11 @@ body {
     color: white;
 }
 @font-face {
-    src: url("fonts/Merienda-Bold.ttf");
+    src: url("Merienda-Bold.ttf");
     font-family:Merienda;
 }
 @font-face {
-    src: url("fonts/Kings-Regular.ttf");
+    src: url("Kings-Regular.ttf");
     font-family:Kings;
 }
 .bg-video{
@@ -205,4 +205,5 @@ canvas {
 .memory-btn:hover {
     transform: scale(1.1);
 }
+
 
