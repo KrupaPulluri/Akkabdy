@@ -122,8 +122,8 @@ button {
 /* IMAGE STYLE (COMMON) */
 .gallery img,
 .gallery1 img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0,0,0,0.3);
@@ -205,6 +205,7 @@ canvas {
 .memory-btn:hover {
     transform: scale(1.1);
 }
+
 
 
 
