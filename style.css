@@ -15,11 +15,11 @@ body {
 }
 
 h1 {
-    font-size: clamp(28px, 6vw, 50px);
+    font-size: clamp(28px, 6vw, 25px);
 }
 
 h3, p, h5, h6 {
-    font-size: clamp(8px, 5vw, 35px);
+    font-size: clamp(28px, 5vw, 25px);
 }
 @media (max-width: 768px) {
 
@@ -276,6 +276,7 @@ canvas {
   }
 
 }
+
 
 
 
