@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our Memories🥹💕</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fff0f5;
+            text-align: center;
+
+        }
+        h1,p{
+            font-family:Merienda;
+        }
+        @font-face {
+        src: url("fonts/Merienda-Bold.ttf");
+        font-family:Merienda;
+        }
+        .container {
+            padding: 40px;
+        }
+        h1{
+            color:white;
+            font-size: 50px;
+        }
+        img {
+            width: 500px;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        p {
+            margin-top: 20px;
+            font-size: 25px;
+            color:whitesmoke;
+        }
+
+        .buttons {
+            margin-top: 30px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 20px;
+            border: none;
+            background: #2e72c5;
+            color: white;
+            cursor: pointer;
+            font-size: 24px;
+            width: 250px;
+            height:70px;
+            font-family:Merienda;
+        }
+        
+        .bg-video{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    z-index: -1;
+}
+        button:hover {
+            background:#184a61;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Our Childhood 🥹💕</h1>
+
+    <img src="images/Akka-pics/-1.jpg" alt="Childhood Photo">
+     
+
+    <p>
+       As Of know , this is the frst picture of our Childhood which we found..!<br>
+       Aah Expression chusthe ne ardham avuthundhi iga dhiniki ipadi nundi he torcher start ani anukuntunnav anii😣<br>
+       Antha chinna pillani ani chudakunda chevvu pinduthunnav😓konchem kuda jaali ledhuuu😏
+       <br>poniy lee edhaithe eh photo lo mathram idharam cute ga ochinam🫣
+    </p>
+
+    <video class="bg-video"autoplay muted loop playsinline>
+        <source src="bgvideo2.mp4" type="video/mp4">
+    </video>
+    <div class="buttons">
+        <button onclick="goBack()">Back</button>
+        <button onclick="goNext()">Next</button>
+    </div>
+</div>
+
+<script>
+function goBack() {
+    window.location.href = "birthday.html"; // your main page name
+}
+
+function goNext() {
+    window.location.href = "memory2.html";
+}
+</script>
+
+</body>
+</html>

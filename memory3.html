@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our Memories🥹💕</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fff0f5;
+            text-align: center;
+        }
+        h1,p{
+            font-family:Merienda;
+        }
+        @font-face {
+        src: url("fonts/Merienda-Bold.ttf");
+        font-family:Merienda;
+        }
+        .container {
+            padding: 40px;
+        }
+        h1{
+            color:white;
+            font-size: 50px;
+        }
+        img {
+            width: 350px;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        p {
+            margin-top: 20px;
+            font-size: 25px;
+            color:whitesmoke;
+        }
+
+        .buttons {
+            margin-top: 30px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 20px;
+            border: none;
+            background: #2e72c5;
+            color: white;
+            cursor: pointer;
+            font-size: 24px;
+            width: 250px;
+            height:70px;
+            font-family:Merienda;
+        }
+        
+        .bg-video{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    z-index: -1;
+}
+        button:hover {
+            background:#184a61;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>The Special Photo🫣(Ammoruu)</h1>
+
+    <img src="images/Akka-pics/spl.jpeg" alt="Childhood Photo">
+    <p>
+       Here Goes The One and Only Buuuutifulll girl in our house👻🩷<br>
+       Same <b><i><u>"AMMORUU"</u></i></b> laga ne unnav kadha akka🤭<br>
+       But Na Bad Lack enti ante ah pose ni nenu live lo chudalekapoyanu , I missed it But Soon we'll recreate it<br> 
+       Kani Vishyam Enti ante eh pose pettina kuda adhi face ki set ayyii inka manchiga kanipisthundhii<br>
+       (Andhuke you are the So called <b><i><u>"Beautiful-Girl")</u></i></b>
+
+    </p>
+
+    <video class="bg-video"autoplay muted loop playsinline>
+        <source src="bgvideo2.mp4" type="video/mp4">
+    </video>
+    <div class="buttons">
+        <button onclick="goBack()">Back</button>
+        <button onclick="goNext()">Next</button>
+    </div>
+</div>
+
+<script>
+function goBack() {
+    window.location.href = "memory2.html"; // your main page name
+}
+
+function goNext() {
+    window.location.href = "memory4.html";
+}
+</script>
+
+</body>
+</html>
